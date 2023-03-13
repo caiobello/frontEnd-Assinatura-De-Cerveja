@@ -236,7 +236,6 @@ body {
         align-items: center;
         justify-content: center;
         text-align: center;
-        background-image: none;
 
         
     }
@@ -296,6 +295,7 @@ body {
         display: flex;
         justify-content: baseline;
     }
+Pesquise no Google ou digite um URL
 
     .container__botao{
         padding: 10%;
@@ -319,5 +319,10 @@ body {
     .rodape__texto {
         font-size: 0.5em;
         padding: 1%;
+    }
+
+    :root {
+        --cor--terciaria: #fae647;
+        --cor--quarternaria: #fff018;
     }
 }
