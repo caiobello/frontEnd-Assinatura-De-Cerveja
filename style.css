@@ -62,14 +62,14 @@ body {
 }
 .container__botao {
     font-size: 1.5em;
-    margin: 1.5em 0 1em 0;
+    margin: 1em 0 1em 0;
     background-color: var(--cor--terciaria);
     border-radius: 5px;
     padding: 1rem;
     color: var(--cor--fundo);
     display: block;
     text-decoration: none;
-    height: 1em;
+
     
     /* border: 2px solid var(--cor--princial) */
 
