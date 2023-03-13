@@ -128,7 +128,7 @@ body {
 }
 
 .container__descricao{
-    padding: 10%;
+    padding: 1%;
     
 }
 
@@ -152,12 +152,12 @@ body {
 }
 
 .dispositivos__lista{
-    width: 100%;
+
     padding: 1%;
-    display: flex;
+    display: inline-flex;
     justify-content: center;
     list-style-type: nome;
-
+    text-align: center;
 
 
 }
@@ -228,4 +228,96 @@ body {
 .container__botao:hover{
     background-color: var(--cor--secundaria);
     color: var(--cor--fundo)
+}
+
+@media screen and (max-width: 768px) {    
+    .container {
+        display: inline;
+        align-items: center;
+        justify-content: center;
+        text-align: center;
+        background-image: none;
+
+        
+    }
+    .principal {
+
+        padding: 1% 1%    
+    
+    }
+    .container__imagem {
+        width: 50vw;
+    }
+    
+    .container__caixa {
+        margin: 2em 2em;
+    }
+
+    .secundario {
+        margin: 0;
+        text-align: center;
+    }
+
+    .secundario__imagem {
+        padding: 10%;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+
+    }
+
+    .dispositivos__lista{
+
+
+
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        height: 50vh;
+        max-height: 50%;
+        max-width: 10%;
+        height: auto;
+        width: auto;
+    }
+
+
+    .container__imagem{
+        width: 50vh;
+    }
+
+    .secundario__imagem{
+        margin: 1%;
+        width: 80%;
+        align-items: center;
+        justify-content: center;
+    }
+    .dispositivos{
+        display: flex;
+        justify-content: baseline;
+    }
+
+    .container__botao{
+        padding: 10%;
+        text-align: center;
+        font-family: var(--font--primaria);
+        font-size: 1.1em;
+
+    }
+
+    
+    .rodape__lista{
+        flex-direction: column;
+        padding: 3%;
+        
+    }
+
+    .rodape__logo {
+        width: 40%;
+    }
+
+    .rodape__texto {
+        font-size: 0.5em;
+        padding: 1%;
+    }
 }
