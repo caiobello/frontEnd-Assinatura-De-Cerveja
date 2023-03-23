@@ -1,4 +1,4 @@
-<h1 align="center">Rascunho Inicial para uma Loja de Assinaturas de Cervejas</h1>
+<h1 align="center">Rascunho de uma Loja de Assinaturas de Cervejas</h1>
 
 
 
